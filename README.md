@@ -29,4 +29,4 @@ tested horizon.
 
 ## License
 
-AGPL-3.0. The companion paper is CC BY-SA-NS.
+AGPL-3.0. The companion paper is CC BY-SA 4.0.
