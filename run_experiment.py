@@ -37,6 +37,7 @@ def replicate(reps, n_windows, p_throttle, seed_base, **kw):
         "subcontractor_flags_total": int(
             np.sum([x["subcontractors_flagged"] for x in rows])
         ),
+        "null_drift": float(np.mean([x["null_drift"] for x in rows])),
         "reps": reps,
     }
 

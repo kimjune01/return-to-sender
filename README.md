@@ -23,7 +23,7 @@ uv run python run_experiment.py   # main study + ablations, writes results.json
 Designed randomization, AIPW scores: FDR 0.000 at every horizon, power 0.909
 at 100 windows and 0.977 at 200, zero subcontractor false flags anywhere.
 Remove the randomization (reactive throttling, analyst still assumes the
-design): FDR 0.672 at tau = 0.25 where the matched control holds 0.000.
+design): FDR 0.691 at tau = 0.25 where the matched control holds 0.000.
 Rare friction (p = 0.05): e-values stay valid and detect nothing at any
 tested horizon.
 

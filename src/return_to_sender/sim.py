@@ -157,13 +157,13 @@ def run_trial(
         # with harmful neighborhoods last window get throttled this window.
         # The analyst still assumes Bernoulli(p_throttle).
         treatments = np.zeros((n, n_windows), dtype=np.int8)
+        harm = np.empty((n, n_windows))
         z = rng.binomial(1, p_throttle, n)
         for t in range(n_windows):
             treatments[:, t] = z
-            harm_t = world.simulate_windows(z[:, None], rng)[:, 0]
-            hot = harm_t > np.quantile(harm_t, 1 - p_throttle)
+            harm[:, t] = world.simulate_windows(z[:, None], rng)[:, 0]
+            hot = harm[:, t] > np.quantile(harm[:, t], 1 - p_throttle)
             z = hot.astype(np.int8)
-        harm = world.simulate_windows(treatments, rng)
     else:
         treatments = rng.binomial(1, p_throttle, (n, n_windows)).astype(np.int8)
         harm = world.simulate_windows(treatments, rng)
@@ -188,4 +188,7 @@ def run_trial(
         "power": true_pos / world.relays.sum(),
         "n_flagged": n_flagged,
         "subcontractors_flagged": int((flagged & world.subcontractors).sum()),
+        # Mean per-window score over honest nodes: 0 in expectation under the
+        # design, and the size of the phantom drift when the design is lost.
+        "null_drift": float(scores[~world.relays].mean()),
     }

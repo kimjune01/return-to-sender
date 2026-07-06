@@ -9,6 +9,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.00042631578947368356,
       "reps": 200
     },
     "25": {
@@ -16,6 +17,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0007357894736842105,
       "reps": 200
     },
     "50": {
@@ -23,6 +25,7 @@
       "power": 0.00025,
       "mean_flagged": 0.005,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.00047526315789473696,
       "reps": 200
     },
     "100": {
@@ -30,6 +33,7 @@
       "power": 0.52125,
       "mean_flagged": 10.425,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.0007186842105263158,
       "reps": 200
     },
     "200": {
@@ -37,6 +41,7 @@
       "power": 0.77825,
       "mean_flagged": 15.565,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0014922368421052628,
       "reps": 200
     }
   },
@@ -46,6 +51,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.0031796532999164595,
       "reps": 200
     },
     "25": {
@@ -53,6 +59,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0008704036384062038,
       "reps": 200
     },
     "50": {
@@ -60,6 +67,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.00042374482265198265,
       "reps": 200
     },
     "100": {
@@ -67,6 +75,7 @@
       "power": 0.9094999999999999,
       "mean_flagged": 18.19,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.00046758426728824476,
       "reps": 200
     },
     "200": {
@@ -74,38 +83,43 @@
       "power": 0.9765,
       "mean_flagged": 19.53,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0007092815981536458,
       "reps": 200
     }
   },
   "ablation_confounded_tau1.0": {
     "50": {
       "fdr": 0.0,
-      "power": 0.077,
-      "mean_flagged": 1.54,
+      "power": 0.08775000000000001,
+      "mean_flagged": 1.755,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.5065939876734408,
       "reps": 200
     },
     "100": {
-      "fdr": 0.047009926868622515,
-      "power": 0.99775,
-      "mean_flagged": 21.0,
-      "subcontractor_flags_total": 12,
+      "fdr": 0.0538769780943694,
+      "power": 0.998,
+      "mean_flagged": 21.165,
+      "subcontractor_flags_total": 17,
+      "null_drift": 0.47665722989350384,
       "reps": 200
     }
   },
   "ablation_confounded_tau0.25": {
     "50": {
-      "fdr": 0.0361546367438816,
-      "power": 0.9830000000000001,
-      "mean_flagged": 20.45,
-      "subcontractor_flags_total": 7,
+      "fdr": 0.04605789899536448,
+      "power": 0.9829999999999999,
+      "mean_flagged": 20.685,
+      "subcontractor_flags_total": 9,
+      "null_drift": 0.5065939876734408,
       "reps": 200
     },
     "100": {
-      "fdr": 0.6722046634623109,
+      "fdr": 0.6908755210553802,
       "power": 0.9997499999999999,
-      "mean_flagged": 65.275,
-      "subcontractor_flags_total": 499,
+      "mean_flagged": 68.815,
+      "subcontractor_flags_total": 555,
+      "null_drift": 0.47665722989350384,
       "reps": 200
     }
   },
@@ -115,6 +129,7 @@
       "power": 0.7084999999999999,
       "mean_flagged": 14.17,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0003812695359776037,
       "reps": 200
     },
     "100": {
@@ -122,6 +137,7 @@
       "power": 0.98925,
       "mean_flagged": 19.785,
       "subcontractor_flags_total": 0,
+      "null_drift": 7.959634247151771e-05,
       "reps": 200
     }
   },
@@ -131,6 +147,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0007205612166380915,
       "reps": 200
     },
     "25": {
@@ -138,6 +155,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.006220515233485621,
       "reps": 200
     },
     "50": {
@@ -145,6 +163,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.003500286085156426,
       "reps": 200
     },
     "100": {
@@ -152,6 +171,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": 0.001619731478846398,
       "reps": 200
     },
     "200": {
@@ -159,6 +179,7 @@
       "power": 0.0,
       "mean_flagged": 0.0,
       "subcontractor_flags_total": 0,
+      "null_drift": -0.0003000534799647702,
       "reps": 200
     }
   }
