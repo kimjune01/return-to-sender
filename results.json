@@ -1,0 +1,165 @@
+{
+  "q": 0.1,
+  "tau": 1.0,
+  "p_throttle": 0.5,
+  "reps": 200,
+  "main_ht": {
+    "10": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "25": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "50": {
+      "fdr": 0.0,
+      "power": 0.00025,
+      "mean_flagged": 0.005,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.0,
+      "power": 0.52125,
+      "mean_flagged": 10.425,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "200": {
+      "fdr": 0.0,
+      "power": 0.77825,
+      "mean_flagged": 15.565,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    }
+  },
+  "main_aipw": {
+    "10": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "25": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "50": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.0,
+      "power": 0.9094999999999999,
+      "mean_flagged": 18.19,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "200": {
+      "fdr": 0.0,
+      "power": 0.9765,
+      "mean_flagged": 19.53,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    }
+  },
+  "ablation_confounded_tau1.0": {
+    "50": {
+      "fdr": 0.0,
+      "power": 0.077,
+      "mean_flagged": 1.54,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.047009926868622515,
+      "power": 0.99775,
+      "mean_flagged": 21.0,
+      "subcontractor_flags_total": 12,
+      "reps": 200
+    }
+  },
+  "ablation_confounded_tau0.25": {
+    "50": {
+      "fdr": 0.0361546367438816,
+      "power": 0.9830000000000001,
+      "mean_flagged": 20.45,
+      "subcontractor_flags_total": 7,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.6722046634623109,
+      "power": 0.9997499999999999,
+      "mean_flagged": 65.275,
+      "subcontractor_flags_total": 499,
+      "reps": 200
+    }
+  },
+  "control_tau0.25": {
+    "50": {
+      "fdr": 0.0,
+      "power": 0.7084999999999999,
+      "mean_flagged": 14.17,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.0,
+      "power": 0.98925,
+      "mean_flagged": 19.785,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    }
+  },
+  "ablation_rare_friction": {
+    "10": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "25": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "50": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "100": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    },
+    "200": {
+      "fdr": 0.0,
+      "power": 0.0,
+      "mean_flagged": 0.0,
+      "subcontractor_flags_total": 0,
+      "reps": 200
+    }
+  }
+}
